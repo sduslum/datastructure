@@ -123,7 +123,7 @@ public class HashTable<K, V> {
         }
 
     }
-    
+
     public static void main(String[] args) {
         HashTable<Integer, Integer> hashTable = new HashTable<>();
         hashTable.put(1, 1);
