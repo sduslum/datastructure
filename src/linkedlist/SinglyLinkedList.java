@@ -218,12 +218,13 @@ public class SinglyLinkedList {
 
     public static void main(String[] args) {
         SinglyLinkedList list = new SinglyLinkedList();
+        list.insertTail(1);
         list.insertTail(2);
         list.insertTail(3);
-        list.insertTail(3);
-        list.insertTail(2);
+        list.insertTail(4);
         list.printAll();
-        boolean isPalindrome = list.palindrome();
-        System.out.println("isPalindrome : " + isPalindrome);
+         list.inverseLinkList();
+        list.printAll();
+//        System.out.println("isPalindrome : " + isPalindrome);
     }
 }
